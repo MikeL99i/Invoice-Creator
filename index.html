@@ -14,25 +14,32 @@
                 <h1>Invoice creator</h1>
                 <p>Thanks for choosing GoodCorp, LLC!</p>
             </div>
-            <span class="servicebutton">
-                <button id="washbutton">Wash Car 10$</button>
-                <button id="mowbutton">Mow Lawn: 20$</button>
-                <button id="pullbutton">Pull Weeds: 30$</button>
+            <span>
+                <button class="servicebutton" id="washbutton">Wash Car 10$</button>
+                <button class="servicebutton" id="mowbutton">Mow Lawn: 20$</button>
+                <button class="servicebutton" id="pullbutton">Pull Weeds: 30$</button>
             </span>
 
-            <div>
-                <p class="inlinepara">Task</p>
-                <p class="inlinepara">Total</p>
-            </div>
-    
-            <div class="divider"></div> <!--empty div for styling a straight line to divide the container-->
-    
-            <div>
-                <p class="inlinepara">NOTES</p>
-                <p class="inlinepara">TOTAL AMOUNT</p>
-            </div>
+            <div class="bottompart">
+                <p>
+                    <span class="leftpara">Task</span>
+                    <span class="rightpara">Total</span>
+                </p>
+                <!-- <p class="inlinepara" id="taskpara">Task</p>
+                <p class="inlinepara" id="totalpara">Total</p> -->
 
-            <button id="invoicebtn">Send Invoice</button>
+                <hr>
+    
+                <p>
+                    <span class="leftpara">NOTES</span>
+                    <span class="rightpararow2">TOTAL AMOUNT</span>
+                </p>
+
+                <!-- <p class="split-para">This text is left. <span>This text is right.</span></p>
+
+                <p class="justify-para">This text is left. <span class="justify-para">This text is right.</span></p> -->
+            </div> 
+            <button id="invoicebtn">✉️ Send Invoice</button>
 
         </div>
 

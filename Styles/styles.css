@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", "Smooch Sans", "sans-serif";
-  text-align: center;
 }
 
 .container {
@@ -14,6 +13,7 @@
   font-size: 18px;
   border: 1px solid #bbd2c5;
   border-radius: 2px;
+  text-align: center;
 }
 
 .upperPart {
@@ -21,6 +21,82 @@
   background: #3a69d2;
 }
 
-.inlinepara {
-  display: inline;
+.servicebutton {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  background: #d1d4f4;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
 }
+
+.bottompart {
+  text-align: left;
+}
+
+hr {
+  border: 1px white solid;
+  margin: 10px 10px;
+}
+
+.leftpara {
+  margin-left: 30px;
+}
+
+.rightpara {
+  margin-right: 15px;
+  margin-left: 400px;
+}
+
+.rightpararow2 {
+  margin-left: 275px;
+}
+
+#invoicebtn {
+  background: #3a69d2;
+  color: #fff;
+  margin: 30px;
+  padding: 9px 17px 9px 15px;
+  width: 473px;
+  height: 44px;
+}
+
+/* split p solution stack overflow
+.split-para {
+  display: block;
+  margin: 10px;
+}
+.split-para span {
+  display: block;
+  float: right;
+  width: 30%;
+  margin-left: 10px;
+}
+
+.justifypara {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .inlinepara {
+  margin-left: 15px;
+  margin-right: 15px;
+} */
+
+/* #taskpara {
+  text-align: left;
+  float: left;
+}
+
+#totalpara {
+  text-align: right;
+}
+
+#bottompart {
+  padding: 20px;
+  margin: 20px 20px;
+} */
