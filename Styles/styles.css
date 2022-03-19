@@ -36,6 +36,8 @@
 
 .bottompart {
   text-align: left;
+  font-size: larger;
+  font-weight: bold;
 }
 
 hr {
@@ -44,16 +46,24 @@ hr {
 }
 
 .leftpara {
-  margin-left: 30px;
+  position: absolute;
+  left: 50px;
+}
+
+.bottompart span {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .rightpara {
-  margin-right: 15px;
-  margin-left: 400px;
+  position: relative;
+  left: 450px;
 }
 
 .rightpararow2 {
-  margin-left: 275px;
+  position: relative;
+  left: 350px;
 }
 
 #invoicebtn {
