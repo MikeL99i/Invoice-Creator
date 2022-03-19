@@ -76,7 +76,6 @@ hr {
   width: 30%;
   margin-left: 10px;
 }
-
 .justifypara {
   display: flex;
   justify-content: space-between;
@@ -91,11 +90,9 @@ hr {
   text-align: left;
   float: left;
 }
-
 #totalpara {
   text-align: right;
 }
-
 #bottompart {
   padding: 20px;
   margin: 20px 20px;
