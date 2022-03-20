@@ -6,7 +6,7 @@
 
 .container {
   max-width: 550px;
-  max-height: 729px;
+  max-height: 790px;
   background: #1f2937;
   color: white;
   margin: 0 auto;
@@ -83,6 +83,13 @@ hr {
 
 #totalcost {
   font-size: 40px;
+}
+
+.removebtn {
+  padding: 0;
+  border: none;
+  background: none;
+  color: white;
 }
 /* split p solution stack overflow
 .split-para {
