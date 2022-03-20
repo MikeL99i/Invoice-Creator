@@ -4,6 +4,10 @@
   font-family: "Inter", "Smooch Sans", "sans-serif";
 }
 
+body {
+  background: #bbd2c5;
+}
+
 .container {
   max-width: 550px;
   max-height: 790px;
