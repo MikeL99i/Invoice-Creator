@@ -9,25 +9,32 @@ const invoiceBtn = document.getElementById("invoicebtn");
 const midPart = document.getElementById("midpart");
 const botPart = document.getElementById("botpart");
 const updateMid = document.getElementById("updatemid");
+const totalCost = document.getElementById("totalcost");
 
 // Array to hold all requested services
 let requestedServices = [null, null, null];
+
+// variable for total cost
+let costSum = 0;
 
 
 // EventListener instead of onclick 
 washBtn.addEventListener("click", function() {
     requestedServices[0] = "WASH";
     renderMid(requestedServices);
+    renderBot(10);
 })
 
 mowBtn.addEventListener("click", function() {
     requestedServices[1] = "MOW";
     renderMid(requestedServices);
+    renderBot(20);
 })
 
 pullBtn.addEventListener("click", function() {
     requestedServices[2] = "PULL";
     renderMid(requestedServices);
+    renderBot(30);
 })
 
 // rendering midPart changes
@@ -62,3 +69,10 @@ function renderMid(arr) {
     updateMid.innerHTML = render;
 }
 
+// render total cost
+function renderBot(cost) {
+    let render = "";
+    costSum += cost;
+    render = `<p>${costSum} $</p>`;
+    totalCost.innerHTML = render;
+}

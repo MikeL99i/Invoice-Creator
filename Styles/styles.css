@@ -26,7 +26,7 @@
   justify-content: center;
   align-items: center;
   padding: 9px 13px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
   margin-right: 15px;
   background: #d1d4f4;
@@ -75,6 +75,15 @@ hr {
   height: 44px;
 }
 
+#note {
+  font-weight: normal;
+  font-size: small;
+  margin-top: -35px;
+}
+
+#totalcost {
+  font-size: 40px;
+}
 /* split p solution stack overflow
 .split-para {
   display: block;
